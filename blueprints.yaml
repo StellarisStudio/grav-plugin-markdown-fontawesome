@@ -1,5 +1,5 @@
 name: Markdown Font Awesome
-version: 1.0.1
+version: 1.0.2
 description: "Adds support for Font Awesome icons in Markdown using :emoji: syntax"
 icon: flag
 author:
@@ -7,7 +7,8 @@ author:
   email: joshualotz@gmail.com
   url: https://github.com/yoshikin
 license: MIT
-
+homepage: https://github.com/StellarisStudio/grav-plugin-markdown-fontawesome
+keywords: markdown, fontawesome
 form:
   validation: strict
   fields:

@@ -26,7 +26,7 @@ class MarkdownFontAwesomePlugin extends Plugin
         // Add function to handle this
         $markdown->inlineFontAwesome = function($excerpt) {
             // Search $excerpt['text'] for regex and store whole matching string in $matches[0], store icon name in $matches[1]
-            if (preg_match('/:fa-([-\w]+):/', $excerpt['text'], $matches))
+            if (preg_match('/:fa([-\w\s]+):/', $excerpt['text'], $matches))
             {
                 return array(
                     'extent' => strlen($matches[0]),
@@ -34,7 +34,7 @@ class MarkdownFontAwesomePlugin extends Plugin
                         'name' => 'i',
                         'text' => '',
                         'attributes' => array(
-                            'class' => 'fa fa-'.$matches[1],
+                            'class' => 'fa'.$matches[1],
                         ),
                     ),
                 );
