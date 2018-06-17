@@ -39,7 +39,7 @@ enabled: true
 # Known limitations
 
 - Does not work with Markdown Extra enabled (conflicts with definition lists which start with a colon)
-- Icon names are not validated, so html tags are created even for non-existent icons like `:fa-not-a-real-icon:``
+- Icon names are not validated, so html tags are created even for non-existent icons like `:fa-not-a-real-icon:`
 
 # Alternatives
 
