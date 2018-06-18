@@ -7,13 +7,21 @@ The **Font Awesome plugin** for [Grav](http://github.com/getgrav/grav) allows yo
 # Examples
 
 ```
+Font Awesome 5+ :
 Grab a cup of :fas fa-coffee: and write some :fas fa-code: to extend :fab fa-grav fa-spin:
+
+Font Awesome :
+Grab a cup of :fa fa-coffee: and write some :fa fa-code fa-2x:
 ```
 
 Will produce the following HTML:
 
 ```
+Font Awesome 5+ :
 Grab a cup of <i class="fas fa-coffee"></i> and write some <i class="fas fa-code"></i> to extend <i class="fab fa-grav fa-spin"></i>
+
+Font Awesome :
+Grab a cup of <i class="fas fa-coffee"></i> and write some <i class="fas fa-code fa-2x"></i>
 ```
 
 # Prerequisites
