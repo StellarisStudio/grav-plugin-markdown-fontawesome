@@ -32,7 +32,7 @@ This plugin doesn't contain the actual Font Awesome fonts, so make sure you are 
 
 # Manual installation
 
-Download zip version of this repository, unzip to `/your/site/grav/user/plugins` and rename directory to `markdown-fontawesome`.
+Download the latest [release](https://github.com/StellarisStudio/grav-plugin-markdown-fontawesome/archive/v1.0.2.zip) of this repository, unzip to `/your-grav/user/plugins` and rename the folder to `markdown-fontawesome`.
 
 # Configuration
 
