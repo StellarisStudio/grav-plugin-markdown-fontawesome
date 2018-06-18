@@ -2,7 +2,7 @@
 
 The **Font Awesome plugin** for [Grav](http://github.com/getgrav/grav) allows you to use Font Awesome icons inline with markdown by wrapping the icon name in colons :emoji: style !!
 
-**Updated to work with the last Font Awesome 5 !!** and support to additional fa classes such as `fa-spin` and `fa-2x`.
+**Updated to work with the last Font Awesome 5 !!** and support to additional `fa` classes such as `fa-spin` and `fa-2x`. _(Doesn't conflicts with Markdown Extra)_
 
 # Examples
 
@@ -30,8 +30,6 @@ The plugin works by looking for colon-wrapped icon names starting with the `:fa`
 
 This plugin doesn't contain the actual Font Awesome fonts, so make sure you are using a plugin or theme (such as Learn2 or Antimatter) that include the Font Awesome assets.
 
-Also, Markdown Extra must be disabled.
-
 # Manual installation
 
 Download zip version of this repository, unzip to `/your/site/grav/user/plugins` and rename directory to `markdown-fontawesome`.
@@ -46,7 +44,6 @@ enabled: true
 
 # Known limitations
 
-- Does not work with Markdown Extra enabled (conflicts with definition lists which start with a colon)
 - Icon names are not validated, so html tags are created even for non-existent icons like `:fa-not-a-real-icon:`
 
 # Alternatives
