@@ -1,7 +1,7 @@
 <?php
 namespace Grav\Plugin;
 
-use \Grav\Common\Plugin;
+use Grav\Common\Plugin;
 use RocketTheme\Toolbox\Event\Event;
 
 class MarkdownFontAwesomePlugin extends Plugin
