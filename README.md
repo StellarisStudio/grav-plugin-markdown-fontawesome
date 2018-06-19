@@ -52,7 +52,7 @@ If you prefer shortcode syntax `[fa=cog /]`, consider using the [Grav Shortcode 
 
 # License
 
-MIT license. See [LICENSE](LICENSE.txt)
+MIT license. See [LICENSE](LICENSE)
 
 # Cred
 
