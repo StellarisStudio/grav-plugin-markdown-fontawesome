@@ -8,17 +8,17 @@ author:
   url: https://github.com/yoshikin
 license: MIT
 homepage: https://github.com/StellarisStudio/grav-plugin-markdown-fontawesome
-keywords: markdown, fontawesome
+keywords: markdown, fontawesome, emoji
 form:
   validation: strict
   fields:
     enabled:
       type: toggle
-      label: Plugin status
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
       highlight: 1
       default: 0
       options:
-        1: Enabled
-        0: Disabled
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
       validate:
         type: bool
